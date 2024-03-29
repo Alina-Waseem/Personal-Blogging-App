@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="EditProfile.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-" style="background-color: blueviolet;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-weight: 500; margin-left: 5%;">Personal Blogging App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="LoginPage.html" style="font-weight: 600; color: white;">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar bg-body-" style="background-color: white;">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="font-weight: 700; font-size: xx-large; padding-left: 5%;">
+                <h1>
+                    <script>
+                        function greetUser() {
+                            var currentDate = new Date();
+                            var currentHour = currentDate.getHours();
+                            var greeting;
+
+                            if (currentHour >= 5 && currentHour < 12) {
+                                greeting = 'Good morning Readers!';
+                            } else if (currentHour >= 12 && currentHour < 17) {
+                                greeting = 'Good afternoon Readers!';
+                            } else if (currentHour >= 17 && currentHour < 20) {
+                                greeting = 'Good evening Readers!';
+                            } else {
+                                greeting = 'Good night Readers!';
+                            }
+
+                            return greeting;
+                        }
+                        document.write(greetUser()); 
+                    </script>
+                </h1>
+            </a>
+        </div>
+    </nav>
+    <section>
+        <div class="row" style="margin-left: 5%; margin-top: 1%;">
+            <h1 style=" margin-top: 5%;">All Blogs</h1>
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-md-8">
+                    <div class="blog-box">
+                        <div class="card mb-3" style="max-width: 1000px;">
+                            <div class="row g-0">
+                                <div class="col-md-12">
+                                    <div class="card-body">
+                                        <div style="display: flex; align-items: center;">
+                                            <img src="Elon mask.jpg" style="height: 100px; border-radius: 5%;">
+                                            <div>
+                                                <h4 class="card-title" style="margin-left: 5%; width: max-content;">
+                                                    Introducing Whisper</h4>
+                                                <p class="card-text" style="margin-left: 5%;"><small
+                                                        class="text-body-secondary">Elon Musk - August 17th,
+                                                        2023</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="card-text" style="margin-top: 2%;">
+                                            Whisper is an automatic speech recognition (ASR) system trained on 680,000
+                                            hours
+                                            of
+                                            multilingual and multitask supervised data collected from the web. We show
+                                            that
+                                            the use of
+                                            such a large and diverse dataset leads to improved robustness to accents,
+                                            background noise
+                                            and technical language. Moreover, it enables transcription in multiple
+                                            languages, as well as
+                                            translation from those languages into English. We are open-sourcing models
+                                            and
+                                            inference
+                                            code to serve as a foundation for building useful applications and for
+                                            further
+                                            research on
+                                            robust speech processing.
+                                        </p>
+                                        <a href="ElonMusk.html" style="text-decoration: none; color: blueviolet;">see
+                                            all
+                                            from this user</a>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <div class="card mb-3" style="max-width: 1000px;">
+                            <div class="row g-0">
+                                <div class="col-md-12">
+                                    <div class="card-body">
+                                        <div style="display: flex; align-items: center;">
+                                            <img src="mark.jpg" style="height: 80px; border-radius: 5%;">
+                                            <div>
+                                                <h4 class="card-title" style="margin-left: 5%; ">
+                                                    Building Bridges, Not Walls: The Meta Metaverse and the Future of
+                                                    Connection</h4>
+                                                <p class="card-text" style="margin-left: 5%; "><small
+                                                        class="text-body-secondary">Mark Zuckerberg - August 16th,
+                                                        2023</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="card-text" style="margin-top: 2%;">
+                                            Meta's vision for the metaverse as a new frontier for connection and
+                                            collaboration. Emphasizing the importance of open standards and
+                                            interoperability, Meta seeks
+                                            to create a diverse and inclusive metaverse through collaboration with tech
+                                            companies,
+                                            creators, and developers. While acknowledging challenges like privacy and
+                                            safety, Meta
+                                            remains committed to addressing these issues and fostering positive impact
+                                            through ongoing
+                                            dialogue and collaboration.
+                                        </p>
+                                        <a href="MarkZuckerberg.html"
+                                            style="text-decoration: none; color: blueviolet;">see
+                                            all from this user</a>
+                                        <br>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <div class="card mb-3" style="max-width: 1000px;">
+                            <div class="row g-0">
+                                <div class="col-md-12">
+                                    <div class="card-body">
+                                        <div style="display: flex; align-items: center;">
+                                            <img src="satya nadella.webp" style="height: 80px; border-radius: 5%;">
+                                            <div>
+                                                <h4 class="card-title" style="margin-left: 5%; ">
+                                                    Democratizing AI: How Whisper Empowers Developers and Users</h4>
+                                                <p class="card-text" style="margin-left: 5%; "><small
+                                                        class="text-body-secondary">Satya Nadella - August 15th,
+                                                        2023</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="card-text" style="margin-top: 2%;">
+                                            Whisper, Elon Musk's team's advanced speech recognition system. At
+                                            Microsoft,
+                                            we're excited
+                                            about such progress, which aligns with our AI vision. Whisper's ability to
+                                            handle diverse
+                                            accents and languages underscores the importance of curated datasets. We're
+                                            committed to
+                                            responsible data usage and offer accessible AI solutions through platforms
+                                            like
+                                            Azure
+                                            Cognitive Services and open-source projects. Collaboration is key. We
+                                            applaud
+                                            Whisper's
+                                            open-sourcing and seek partnerships within the tech community to accelerate
+                                            inclusive AI
+                                            development. Let's break language barriers and empower users worldwide with
+                                            AI
+                                            technology.
+                                            Stay tuned for more updates!
+                                        </p>
+                                        <a href="SatyaNadella.html"
+                                            style="text-decoration: none; color: blueviolet;">see
+                                            all from this user</a>
+                                        <br>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
